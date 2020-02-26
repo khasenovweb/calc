@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-html(lang="en")
+html(lang="ru")
 head
 	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width")
 	title Кредитный калькулятор 2
+	meta(name="keywords" content="кредитный калькулятор, калькулятор кредита, кредит, калькулятор, сбербанк")
+	meta(name="description" content="Кредитный калькулятор, калькулятор кредита онлайн для расчета ежемесячного платежа по кредиту, с возможностью выставить процентную ставку")
+	link(rel="icon" href="favicon.ico" type="image/x-icon")
 	link(rel="stylesheet", href="css/main.css")
+	link(rel="stylesheet", href="css/media.css")
 body
 	.head
 		.container
-			a.head__logo(href="") Calc-1.ru
+			a.head__logo(href="")
+				img(src="img/logo.svg", alt="Кредитный калькулятор" title="Кредитный калькулятор")
 	.calc
 		.container
 			.calc__content
 				h1.calc__title Кредитный калькулятор
+				p.calc__p Кредитный калькулятор для онлайн расчета ежемесячного платежа например в Сбербанке, ВТБ и других банков. Так-же сможете расчитать потребительский кредит. Аналогичным способом работает кредитный калькулятор сбербанка. 
 				.calc__form
 					.calc__input
 						input(name="summ" type="text" placeholder="Сумма кредита")

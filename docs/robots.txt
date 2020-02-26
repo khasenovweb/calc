@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+User-agent: Mediapartners-Google
+Disallow: 
+User-agent: Yandex
+Disallow: 
+Host: calc-1.ru

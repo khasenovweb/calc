@@ -58,24 +58,24 @@ gulp.task('watch',watch);
 //=======================Сборка====================//
 function html__build() {
 	return gulp.src('app/*.html')
-		.pipe(gulp.dest('docs'));
+		.pipe(gulp.dest('dist'));
 }
 
 function js__build() {
 	return gulp.src('app/js/*.js')
-		.pipe(gulp.dest('docs/js'));
+		.pipe(gulp.dest('dist/js'));
 }
 function css__build() {
 	return gulp.src('app/css/*.css')
-		.pipe(gulp.dest('docs/css'));
+		.pipe(gulp.dest('dist/css'));
 }
 function img__build() {
 	return gulp.src('app/img/*.*')
-		.pipe(gulp.dest('docs/img'));
+		.pipe(gulp.dest('dist/img'));
 }
 function fonts__build() {
 	return gulp.src('app/fonts/*.*')
-		.pipe(gulp.dest('docs/fonts'));
+		.pipe(gulp.dest('dist/fonts'));
 }
 function build__func() {
 	html__build();
